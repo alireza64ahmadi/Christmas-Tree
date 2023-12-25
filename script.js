@@ -20,7 +20,7 @@ baubles.forEach((baubles, i ) => {
     baubles.style.setProperty("--hue",  Math.random() * 360);
 
 
-    baubles.textContent = Math.random() >= 0.2 ? "0" :Math.random() >= 0.5 ? "1🎅":"0";
+    baubles.textContent = Math.random() >= 0.2 ? "0" :Math.random() >= 0.5 ? "1🎅":"0❄️";
 
 
     if( i % 2 === 0){
